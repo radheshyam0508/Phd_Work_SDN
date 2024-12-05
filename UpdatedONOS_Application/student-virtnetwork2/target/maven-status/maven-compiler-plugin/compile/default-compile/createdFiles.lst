@@ -1,0 +1,4 @@
+org/student/virtnetwork2/AppComponent.class
+org/student/virtnetwork2/AppComponent$ForwardReactivePacketProcessor.class
+org/student/virtnetwork2/SomeInterface.class
+org/student/virtnetwork2/AppComponent$ReactivePacketProcessor.class

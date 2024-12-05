@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2022-08-17 15:37:38 by Eclipse SUMO duarouter Version 1.10.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="/home/student/DTUsCodeTesting/MyTopo/Mininet_Topologies/SUMO_CODE/2022-08-17-15-37-31/osm.net.xml"/>
+        <route-files value="/home/student/DTUsCodeTesting/MyTopo/Mininet_Topologies/SUMO_CODE/2022-08-17-15-37-31/osm.tram.trips.xml"/>
+    </input>
+
+    <output>
+        <output-file value="routes.rou.xml"/>
+        <alternatives-output value="routes.rou.alt.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="3600"/>
+    </time>
+
+    <report>
+        <no-warnings value="true"/>
+        <ignore-errors value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="tram_tram" vClass="tram"/>
+    <vehicle id="tram0" type="tram_tram" depart="0.00" departLane="best" departSpeed="max">
+        <route edges="175266451#0 175266451#1 175266451#3 175266451#4 175266451#5 175266451#7 175266451#8 192074712#0 192074712#1 192074712#5 192074712#7"/>
+    </vehicle>
+    <vehicle id="tram1" type="tram_tram" depart="68.22" departLane="best" departSpeed="max">
+        <route edges="197169094#0 197169094#1 197169094#3 197169094#7 194690460#0 194690460#1 194690460#3 194690460#4 194690460#5"/>
+    </vehicle>
+    <vehicle id="tram2" type="tram_tram" depart="136.44" departLane="best" departSpeed="max">
+        <route edges="175266451#0 175266451#1 175266451#3 175266451#4 175266451#5 175266451#7 175266451#8 192074712#0 192074712#1 192074712#5 192074712#7"/>
+    </vehicle>
+    <vehicle id="tram3" type="tram_tram" depart="204.67" departLane="best" departSpeed="max">
+        <route edges="175266451#0 175266451#1 175266451#3 175266451#4 175266451#5 175266451#7 175266451#8 192074712#0 192074712#1 192074712#5 192074712#7"/>
+    </vehicle>
+    <vehicle id="tram5" type="tram_tram" depart="341.11" departLane="best" departSpeed="max">
+        <route edges="197169094#0 197169094#1 197169094#3 197169094#7 194690460#0 194690460#1 194690460#3 194690460#4 194690460#5"/>
+    </vehicle>
+    <vehicle id="tram6" type="tram_tram" depart="409.33" departLane="best" departSpeed="max">
+        <route edges="175266451#0 175266451#1 175266451#3 175266451#4 175266451#5 175266451#7 175266451#8 192074712#0 192074712#1 192074712#5"/>
+    </vehicle>
+    <vehicle id="tram7" type="tram_tram" depart="477.56" departLane="best" departSpeed="max">
+        <route edges="175266451#0 175266451#1 175266451#3 175266451#4 175266451#5 175266451#7 175266451#8"/>
+    </vehicle>
+    <vehicle id="tram8" type="tram_tram" depart="545.78" departLane="best" departSpeed="max">
+        <route edges="197169094#0 197169094#1 197169094#3 197169094#7 194690460#0 194690460#1 194690460#3 194690460#4 194690460#5"/>
+    </vehicle>
+    <vehicle id="tram9" type="tram_tram" depart="614.00" departLane="best" departSpeed="max">
+        <route edges="197169094#0 197169094#1 197169094#3 197169094#7 194690460#0 194690460#1 194690460#3 194690460#4 194690460#5"/>
+    </vehicle>
+    <vehicle id="tram10" type="tram_tram" depart="682.22" departLane="best" departSpeed="max">
+        <route edges="197169094#0 197169094#1 197169094#3 197169094#7 194690460#0 194690460#1 194690460#3 194690460#4 194690460#5"/>
+    </vehicle>
+    <vehicle id="tram11" type="tram_tram" depart="750.44" departLane="best" departSpeed="max">
+        <route edges="175266451#0 175266451#1 175266451#3 175266451#4 175266451#5 175266451#7 175266451#8 192074712#0 192074712#1 192074712#5 192074712#7"/>
+    </vehicle>
+    <vehicle id="tram12" type="tram_tram" depart="818.67" departLane="best" departSpeed="max">
+        <route edges="175266451#0 175266451#1 175266451#3 175266451#4 175266451#5 175266451#7 175266451#8 192074712#0 192074712#1 192074712#5 192074712#7"/>
+    </vehicle>
+    <vehicle id="tram13" type="tram_tram" depart="886.89" departLane="best" departSpeed="max">
+        <route edges="175266451#0 175266451#1 175266451#3 175266451#4 175266451#5 175266451#7 175266451#8 192074712#0 192074712#1 192074712#5 192074712#7"/>
+    </vehicle>
+    <vehicle id="tram14" type="tram_tram" depart="955.11" departLane="best">
+        <route edges="175266451#1 175266451#3 175266451#4 175266451#5 175266451#7 175266451#8 192074712#0 192074712#1 192074712#5 192074712#7"/>
+    </vehicle>
+    <vehicle id="tram15" type="tram_tram" depart="1023.33" departLane="best" departSpeed="max">
+        <route edges="197169094#0 197169094#1 197169094#3 197169094#7 194690460#0 194690460#1 194690460#3 194690460#4 194690460#5"/>
+    </vehicle>
+    <vehicle id="tram16" type="tram_tram" depart="1091.56" departLane="best" departSpeed="max">
+        <route edges="175266451#0 175266451#1 175266451#3 175266451#4 175266451#5 175266451#7 175266451#8 192074712#0 192074712#1 192074712#5 192074712#7"/>
+    </vehicle>
+    <vehicle id="tram17" type="tram_tram" depart="1159.78" departLane="best">
+        <route edges="197169094#7 194690460#0 194690460#1 194690460#3 194690460#4 194690460#5"/>
+    </vehicle>
+    <vehicle id="tram18" type="tram_tram" depart="1228.00" departLane="best">
+        <route edges="194690460#3 194690460#4 194690460#5"/>
+    </vehicle>
+    <vehicle id="tram19" type="tram_tram" depart="1296.22" departLane="best" departSpeed="max">
+        <route edges="197169094#0 197169094#1 197169094#3 197169094#7 194690460#0 194690460#1 194690460#3 194690460#4 194690460#5"/>
+    </vehicle>
+    <vehicle id="tram20" type="tram_tram" depart="1364.45" departLane="best" departSpeed="max">
+        <route edges="175266451#0 175266451#1 175266451#3"/>
+    </vehicle>
+    <vehicle id="tram21" type="tram_tram" depart="1432.67" departLane="best" departSpeed="max">
+        <route edges="175266451#0 175266451#1 175266451#3 175266451#4 175266451#5 175266451#7 175266451#8 192074712#0 192074712#1 192074712#5 192074712#7"/>
+    </vehicle>
+    <vehicle id="tram22" type="tram_tram" depart="1500.89" departLane="best" departSpeed="max">
+        <route edges="175266451#0 175266451#1 175266451#3 175266451#4 175266451#5 175266451#7 175266451#8 192074712#0 192074712#1 192074712#5 192074712#7"/>
+    </vehicle>
+    <vehicle id="tram23" type="tram_tram" depart="1569.11" departLane="best">
+        <route edges="194690460#4 194690460#5"/>
+    </vehicle>
+    <vehicle id="tram24" type="tram_tram" depart="1637.33" departLane="best" departSpeed="max">
+        <route edges="175266451#0 175266451#1 175266451#3 175266451#4"/>
+    </vehicle>
+    <vehicle id="tram25" type="tram_tram" depart="1705.56" departLane="best" departSpeed="max">
+        <route edges="175266451#0 175266451#1 175266451#3 175266451#4 175266451#5 175266451#7 175266451#8 192074712#0 192074712#1 192074712#5 192074712#7"/>
+    </vehicle>
+    <vehicle id="tram26" type="tram_tram" depart="1773.78" departLane="best">
+        <route edges="197169094#3 197169094#7 194690460#0 194690460#1 194690460#3 194690460#4 194690460#5"/>
+    </vehicle>
+    <vehicle id="tram27" type="tram_tram" depart="1842.00" departLane="best" departSpeed="max">
+        <route edges="175266451#0 175266451#1 175266451#3 175266451#4 175266451#5 175266451#7 175266451#8 192074712#0 192074712#1 192074712#5 192074712#7"/>
+    </vehicle>
+    <vehicle id="tram28" type="tram_tram" depart="1910.22" departLane="best" departSpeed="max">
+        <route edges="197169094#0 197169094#1 197169094#3 197169094#7 194690460#0 194690460#1 194690460#3 194690460#4 194690460#5"/>
+    </vehicle>
+    <vehicle id="tram29" type="tram_tram" depart="1978.45" departLane="best" departSpeed="max">
+        <route edges="175266451#0 175266451#1 175266451#3 175266451#4 175266451#5 175266451#7 175266451#8 192074712#0 192074712#1 192074712#5 192074712#7"/>
+    </vehicle>
+    <vehicle id="tram30" type="tram_tram" depart="2046.67" departLane="best" departSpeed="max">
+        <route edges="197169094#0 197169094#1 197169094#3 197169094#7 194690460#0 194690460#1 194690460#3 194690460#4 194690460#5"/>
+    </vehicle>
+    <vehicle id="tram31" type="tram_tram" depart="2114.89" departLane="best" departSpeed="max">
+        <route edges="175266451#0 175266451#1 175266451#3 175266451#4 175266451#5"/>
+    </vehicle>
+    <vehicle id="tram32" type="tram_tram" depart="2183.11" departLane="best" departSpeed="max">
+        <route edges="175266451#0 175266451#1 175266451#3 175266451#4 175266451#5 175266451#7 175266451#8 192074712#0 192074712#1 192074712#5 192074712#7"/>
+    </vehicle>
+    <vehicle id="tram33" type="tram_tram" depart="2251.33" departLane="best">
+        <route edges="194690460#1 194690460#3 194690460#4 194690460#5"/>
+    </vehicle>
+    <vehicle id="tram34" type="tram_tram" depart="2319.56" departLane="best" departSpeed="max">
+        <route edges="175266451#0 175266451#1 175266451#3 175266451#4 175266451#5 175266451#7 175266451#8 192074712#0 192074712#1 192074712#5 192074712#7"/>
+    </vehicle>
+    <vehicle id="tram35" type="tram_tram" depart="2387.78" departLane="best">
+        <route edges="197169094#7 194690460#0 194690460#1 194690460#3 194690460#4 194690460#5"/>
+    </vehicle>
+    <vehicle id="tram36" type="tram_tram" depart="2456.00" departLane="best" departSpeed="max">
+        <route edges="175266451#0 175266451#1 175266451#3 175266451#4 175266451#5 175266451#7 175266451#8 192074712#0 192074712#1 192074712#5 192074712#7"/>
+    </vehicle>
+    <vehicle id="tram38" type="tram_tram" depart="2592.45" departLane="best" departSpeed="max">
+        <route edges="175266451#0 175266451#1 175266451#3 175266451#4 175266451#5 175266451#7 175266451#8 192074712#0 192074712#1 192074712#5 192074712#7"/>
+    </vehicle>
+    <vehicle id="tram39" type="tram_tram" depart="2660.67" departLane="best" departSpeed="max">
+        <route edges="175266451#0 175266451#1 175266451#3 175266451#4 175266451#5 175266451#7 175266451#8 192074712#0 192074712#1"/>
+    </vehicle>
+    <vehicle id="tram41" type="tram_tram" depart="2797.11" departLane="best" departSpeed="max">
+        <route edges="175266451#0 175266451#1 175266451#3 175266451#4 175266451#5 175266451#7 175266451#8 192074712#0 192074712#1 192074712#5 192074712#7"/>
+    </vehicle>
+    <vehicle id="tram42" type="tram_tram" depart="2865.33" departLane="best" departSpeed="max">
+        <route edges="197169094#0 197169094#1 197169094#3 197169094#7 194690460#0 194690460#1 194690460#3 194690460#4 194690460#5"/>
+    </vehicle>
+    <vehicle id="tram43" type="tram_tram" depart="2933.56" departLane="best" departSpeed="max">
+        <route edges="175266451#0 175266451#1 175266451#3 175266451#4 175266451#5 175266451#7 175266451#8 192074712#0 192074712#1 192074712#5 192074712#7"/>
+    </vehicle>
+    <vehicle id="tram45" type="tram_tram" depart="3070.00" departLane="best">
+        <route edges="197169094#7 194690460#0 194690460#1 194690460#3 194690460#4 194690460#5"/>
+    </vehicle>
+    <vehicle id="tram46" type="tram_tram" depart="3138.22" departLane="best">
+        <route edges="197169094#3 197169094#7 194690460#0 194690460#1 194690460#3 194690460#4 194690460#5"/>
+    </vehicle>
+    <vehicle id="tram47" type="tram_tram" depart="3206.45" departLane="best">
+        <route edges="194690460#3 194690460#4 194690460#5"/>
+    </vehicle>
+    <vehicle id="tram48" type="tram_tram" depart="3274.67" departLane="best" departSpeed="max">
+        <route edges="175266451#0 175266451#1 175266451#3 175266451#4 175266451#5 175266451#7 175266451#8 192074712#0 192074712#1 192074712#5 192074712#7"/>
+    </vehicle>
+    <vehicle id="tram49" type="tram_tram" depart="3342.89" departLane="best">
+        <route edges="194690460#1 194690460#3 194690460#4 194690460#5"/>
+    </vehicle>
+</routes>
